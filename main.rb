@@ -4,5 +4,6 @@ require './questions'
 require 'pp'
 
 
-game = Game.new
-game.start
+new_game = Game.new('New Game')
+
+new_game.start
